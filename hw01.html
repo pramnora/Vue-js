@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <title>Vue.js: Hello, world!</title>
+ </head>
+ <body>
+  <div id="myApp">
+   <h1>{{greetings}}<h1>
+  </div>
+  <!--link to Vue.js-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.2.5/vue.min.js"></script>
+  <!--my app code/starts here-->
+  <script>
+   var app = new Vue({
+    el: "#myApp",
+    data: {
+     greetings: "Hello, world! - From Vue.js" 
+    } 
+   })
+  </script>
+  <!--my app code/ends here-->
+ </body>
+</html>
