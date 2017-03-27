@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <title>Vue.js app.: Create a simple web page: Header/Main/Footer</title>
+ </head>
+ <body>
+  <!--HTML app code/start-->
+  <div id="myApp">
+   <header>
+    <h1>{{headerText}}</h1>
+   </header>
+   <main>
+    <h2>{{subHeaderText}}</h2>
+    <p>{{mainText}}</p>
+   </main>
+   <footer>
+    <p>{{footerText}}</p>
+   <footer>
+  </div>
+  <!--HTML app code/end-->
+  <!--link to Vue.js external script online-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.2.5/vue.min.js"></script>
+  <!--Javascript app code/start-->
+  <script>
+   var app = new Vue({
+     el: "#myApp",
+     data: {
+      headerText: "Your Name Web Site",
+      subHeaderText: "Introduction",
+      mainText: "Welcome to my web site.",
+      footerText: "(c)2017, Your Name./All rights reserved."
+     }
+   })
+  <!--Javascript app code/end-->
+  </script>
+ </body>
+</html>
