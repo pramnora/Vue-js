@@ -30,7 +30,7 @@ https://www.youtube.com/watch?v=DsuTwV0jwaY
 [2017] Vue.js in less than 30 minutes for beginners - Tutorial - 2.0  
 https://www.youtube.com/watch?v=VPUdtEf3oXI  
 
-## Examples
+## Example Code
 
 https://github.com/wlada/vue-carousel-3d   
 https://wlada.github.io/vue-carousel-3d/  
