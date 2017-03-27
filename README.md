@@ -14,6 +14,8 @@ http://vuejs.org/v2/guide/
 http://vuejs.org/v2/examples/  (remember to go check out the MarkDown Editor which is written using Vue.js)    
 http://vuejs.org/v2/guide/join.html  (join the Vue.js community links)  
 https://vuejs.org/v2/api/  
+https://vuejs.org/v2/guide/comparison.html  
+
 
 CDNJS   
 https://cdnjs.com/  
