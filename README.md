@@ -34,3 +34,6 @@ https://www.youtube.com/watch?v=VPUdtEf3oXI
 
 https://github.com/wlada/vue-carousel-3d   
 https://wlada.github.io/vue-carousel-3d/  
+
+https://forum.vuejs.org/t/simple-todo-list-app/8594  
+
