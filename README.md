@@ -2,6 +2,8 @@
 
 Recently, I been looking at Vue.js. I heard it described as being a pretty simple and straight forwards to use Javascript framework library of routines; so, naturally, I thought to myself why not go give it a try...?
 
+To be frank, any Javascript framework...no matter how 'simple' others might describe it as being...still takes some very highly precious 'time' to learn/understand/become acquainted with where the best resources are/and, to fully master; so, what this statement means in short is...learning is never easy...one has to make up one's mind and be fully determined to follow through...not just merely start/and, stop.
+
 ## Links...
 
 Main site  
