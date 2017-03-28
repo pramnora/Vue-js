@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--this example taken from: http://vuejs.org/v2/guide/-->
+ <head>
+  <meta charset="UTF-8" />
+  <title>Vue.js app.: component 01</title>
+ </head>
+ <body>
+  <!--HTML app code/start-->
+  <div id="myApp">
+   <ol>
+    <!--Create an instance of the todo-item component-->
+    <todo-item v-for="item in groceryList" v-bind:todo="item">
+    </todo-item>
+   </ol>
+  </div>
+  <!--HTML app code/end-->
+  <!--link to Vue.js external script online-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.2.5/vue.min.js"></script>
+  <!--Javascript app code/start-->
+  <script>
+   Vue.component('todo-item',{
+    props:['todo'],
+    template:'<li>{{todo.text}}</li>'
+   })
+   var app = new Vue({
+       el: "#myApp",
+       data:{
+        groceryList:[
+         {text:'Vegetables'},
+         {text:'Cheese'},
+         {text:'Whatever else humans are supposed to eat'}
+        ]
+       }
+   })
+  </script>
+  <!--Javascript app code/end-->
+ </body>
+</html>
