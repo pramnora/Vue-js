@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--this example taken from...
-    http://vuejs.org/v2/guide/-->
+<!--this example taken from: http://vuejs.org/v2/guide/-->
  <head>
   <meta charset="UTF-8" />
   <title>Vue.js app.: v-for directive</title>
  </head>
  <body>
-  <!--HTML code for app/start-->
+  <!--HTML app code/start-->
   <div id="myApp">
    <ol>
     <li v-for="todo in todos">
@@ -15,10 +14,10 @@
     </li>
    </ol>
   </div>
-  <!--HTML code for app/end-->
+  <!--HTML app code/end-->
   <!--link to Vue.js external script online-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.2.5/vue.min.js"></script>
-  <!--my app code/start-->
+  <!--javascript app code/start-->
   <script>
    var app = new Vue({
      el: "#myApp",
@@ -30,7 +29,7 @@
       ]
     }
    })
-  <!--my app code/end-->
   </script>
+  <!--javascript app code/end-->
  </body>
 </html>
