@@ -48,7 +48,7 @@ https://www.youtube.com/watch?v=VPUdtEf3oXI
 
 ## Other
 
-### Google Chrome Web Browswer Dev Tools extension
+### Google Chrome Web Browser Dev Tools extension
 
 https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd  
 
