@@ -1,10 +1,16 @@
 # Vue-js
 
-Recently, I been looking at Vue.js. I heard it described as being a pretty simple and straight forwards to use Javascript framework library of routines; so, naturally, I thought to myself why not go give it a try...?
+Vue.js, is a relatively easy, simple, and, straight forwards to both learn/use Javascript framework; which is why I would very highly recommend it to people who are 'beginners' who've never actually practiced using Javascript frameworks before; as it will teach you the basics of building and manipulating web page 'front ends'.
 
-To be frank, any Javascript framework...no matter how 'simple' others might describe it as being...still takes some very highly precious 'time and effort' to learn/understand/fully master everything...including, becoming acquainted with where all of the best tutorials/and, other resources are/-etc. What this statement means in short is...learning is never easy...one has to make up one's mind and be fully determined to follow through...not just merely use 'start/and, stop'.
+I should, of course, point out that learning to use any Javascript framework is usually best done only after you're already familiar with having learned what are the main core 3 web development technologies, namely: HTML/CSS/Javascript; when you've already learned how to use all of these 3...; only, then, should you consider moving on towards learning how to use Javascript frameworks, next.
 
-Still, in my own personal view; and, I only started learning Vue.js, right now, today: 270317; Vue.js does, indeed, seem manageable in terms of my own decidedly 'average' mind being able to understand it.
+Otherwise, you would have the task of learning not just merely 'one' thing, at a time...; but, instead, you would have to learn 4 different technologies all together, at once: HTML/CSS/Javascript/+ Javascript Framework...this task, of course, is a lot more difficult; but, then, again...as they say, nothing is impossible! 
+
+Because few of these web based technologies do tend to operate exclusively on their own...but, rather, are very much inter-linked/inter-dependent on one another; therefore, a lot of teachers will opt to teach working with multiple different web technologies at once. Well, each to their own, I guesss; whatever works for you, personally, works...!
+
+Speaking purely for myself...I learned to use: HTML/CSS/Javascript; and, in that same exact order; then, I moved on towards learning how to use Javascript Frameworks, next.
+
+Generally speaking, the use of Javascript Frameworks makes the coders life a hell of a lot simpler and easier by providing a series of 'short cuts'...in the form of pre-written/pre-built code routines...so that instead of having to write say 10 lines of code; you just need to write 1 or 2 or 3 lines, instead...to get the same -or, sometimes, far better- results than you were getting before you started using the Javascript framework; hence, the sheer popularity, now-a-days, of nearly everybody learning to use Javascript frameworks. The only problem with that is, there are not 100's/if not 1000's of different Javascript Frameworks available to choose from...; and, the beginner, especially, feels confused about which one/or, one's it's best to select. The only way to find out if that particular Framework is good for you or not...is to go and learn how to use it 'hands on'; if it's too complex/or, does a lot more than you ever really wanted to...then, go try a next; they're usually FREE to use anyway.
 
 ## Links...
 
