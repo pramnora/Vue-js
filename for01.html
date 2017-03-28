@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--this example taken from...
+    http://vuejs.org/v2/guide/-->
+ <head>
+  <meta charset="UTF-8" />
+  <title>Vue.js app.: v-for directive</title>
+ </head>
+ <body>
+  <!--HTML code for app/start-->
+  <div id="myApp">
+   <ol>
+    <li v-for="todo in todos">
+     {{ todo.text }}
+    </li>
+   </ol>
+  </div>
+  <!--HTML code for app/end-->
+  <!--link to Vue.js external script online-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.2.5/vue.min.js"></script>
+  <!--my app code/start-->
+  <script>
+   var app = new Vue({
+     el: "#myApp",
+     data: {
+      todos: [
+       {text:"Learn Javascript"},
+       {text:"Learn Vue"},
+       {text:"Build something awesome"}
+      ]
+    }
+   })
+  <!--my app code/end-->
+  </script>
+ </body>
+</html>
