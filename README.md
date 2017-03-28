@@ -2,7 +2,7 @@
 
 INTRODUCTION  
 
-Vue.js, is a relatively easy, simple, and, straight forwards to both learn/use Javascript framework; which is why I would very highly recommend it to people who are 'beginners' who've never actually practiced using Javascript frameworks before; as it will teach you the basics of building and manipulating web page 'front ends'.
+Vue.js, is a relatively easy, simple, and, straight forwards to both learn/use Javascript framework; which is why I would very highly recommend it to people who are 'beginners' who've never actually practiced using Javascript frameworks before; as it will teach you about all of the basics of building and manipulating web page 'front ends'.
 
 WHAT YOU MIGHT NEED TO LEARN, FIRST; BEFORE LEARNING TO USE JAVASCRIPT FRAMEWORKS, NAMELY: HTML/CSS/JAVASCRIPT  
 
@@ -18,7 +18,7 @@ DISCUSSING SOME OF THE BENEFITS/AS WELL AS, SOME OF THE DRAWBACKS OF LEARNING TO
 
 Generally speaking, the use of Javascript Frameworks makes the coders life a hell of a lot simpler and easier by providing a series of 'short cuts'...in the form of pre-written/pre-built/re-usable code routines...so that instead of having to write say 10 lines of code; you just write merely 1 or 2 or 3 lines of code, instead...to get the same job done/or, sometimes, the results might be even far better...than before you started using the Javascript framework; hence, the sheer popularity, now-a-days, of nearly everybody learning to use Javascript frameworks. 
 
-The only problem with it is, there are now 100's/if not 1000's of different Javascript Frameworks available to choose from; and, the beginner, especially, is likely to feel totally confused about which one/or, one's it's best to select. The only way to find out if a particular Javascript Framework is good for you or not...is, first, read about it/view some introductory vidoes/then, go and learn how to use it 'hands on'; if you find it's too complex/or, does a lot more than you ever really wanted to...then, go try a next; they're usually FREE to use anyway.
+The only problem with it is, there are now 100's/if not 1000's of different Javascript Frameworks available to choose from; and, the beginner, especially, is likely to feel totally confused about which one/or, one's it's best to select. The only way to find out if a particular Javascript Framework is good for you or not...is, first, read about it/view some introductory videos/then, go and learn how to use it 'hands on'; if you find it's too complex/or, does a lot more than you ever really wanted to...then, go try a next; they're usually FREE to use anyway.
 
 ## Links...
 
