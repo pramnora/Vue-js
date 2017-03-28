@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <title>Vue.js app.: v-for directive (loop)</title>
+ </head>
+ <body>
+  <!--HTML app code/start-->
+  <div id="myApp">
+   <ol>
+    <li v-for="eachLetter in alphabetLetters">
+     {{ eachLetter.letter }}
+    </li>
+   </ol>
+  </div>
+  <!--HTML app code/end-->
+  <!--link to Vue.js external script online-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.2.5/vue.min.js"></script>
+  <!--javascript app code/start-->
+  <script>
+   var app = new Vue({
+     el: "#myApp",
+     data: {
+      alphabetLetters: [
+       {letter:"A"},
+       {letter:"B"},
+       {letter:"C"},
+       {letter:"D"},
+       {letter:"E"},
+       {letter:"F"},
+       {letter:"G"},
+       {letter:"H"},
+       {letter:"I"},
+       {letter:"J"},
+       {letter:"K"},
+       {letter:"L"},
+       {letter:"M"},
+       {letter:"N"},
+       {letter:"O"},
+       {letter:"P"},
+       {letter:"Q"},
+       {letter:"R"},
+       {letter:"S"},
+       {letter:"T"},
+       {letter:"U"},
+       {letter:"V"},
+       {letter:"W"},
+       {letter:"X"},
+       {letter:"Y"},
+       {letter:"Z"}
+      ]
+    }
+   })
+  </script>
+  <!--javascript app code/end-->
+ </body>
+</html>
