@@ -32,10 +32,15 @@ https://www.youtube.com/watch?v=DsuTwV0jwaY
 [2017] Vue.js in less than 30 minutes for beginners - Tutorial - 2.0  
 https://www.youtube.com/watch?v=VPUdtEf3oXI  
 
+## Other
+
+### Google Chrome Web Browswer Dev Tools extension
+
+https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd  
+
 ## Example Code
 
 https://github.com/wlada/vue-carousel-3d   
 https://wlada.github.io/vue-carousel-3d/  
 
 https://forum.vuejs.org/t/simple-todo-list-app/8594  
-
