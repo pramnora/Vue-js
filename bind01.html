@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--this example taken from: http://vuejs.org/v2/guide/-->
+ <head>
+  <meta charset="UTF-8" />
+  <title>Vue.js app.: v-bind directive</title>
+ </head>
+ <body>
+  <!--HTML app code/start-->
+  <div id="myApp">
+   <span v-bind:title="message">
+    Hover to see a dynamically bound title.
+   </span>
+  </div>
+  <!--HTML app code/end-->
+  <!--link to Vue.js external script online-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.2.5/vue.min.js"></script>
+  <!--Javascript app code/start-->
+  <script>
+   var app = new Vue({
+     el: "#myApp",
+     data: {
+      message: "An additional title text message/plus, the date/time: " + new Date()
+     }
+   })
+  <!--Javascript app code/end-->
+  </script>
+ </body>
+</html>
