@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--this example taken from: http://vuejs.org/v2/guide/-->
+ <head>
+  <meta charset="UTF-8" />
+  <title>Vue.js app.: v-model directive (2 way data binding)</title>
+ </head>
+ <body>
+  <!--HTML app code/start-->
+  <div id="myApp">
+   <p>{{message}}</p>
+   <input v-model="message">
+  </div>
+  <!--HTML app code/end-->
+  <!--link to Vue.js external script online-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.2.5/vue.min.js"></script>
+  <!--javascript app code/start-->
+  <script>
+   var app = new Vue({
+     el: "#myApp",
+     data: {
+      message: "Hello, world!"
+     }
+   })
+  <!--javascript app code/end-->
+  </script>
+ </body>
+</html>
