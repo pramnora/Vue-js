@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
- <!--NOTE: This app is still unfinished, and, has to be further updated; in particular, I couldn't quite figure out 
-           how to include HTML code inside of the Vue.js messages; therefore, will need to figure this out, later?-->
  <head>
   <meta charset="UTF-8" />
-  <title>Vue.js app.: Create a simple web page: Header/Main/Footer</title>
+  <title>Vue.js app.: Create a simple web page</title>
  </head>
  <body>
-  <!--HTML app code/start-->
+  <!--HTML code for app/start-->
   <div id="myApp">
    <header>
     <h1>{{headerText}}</h1>
    </header>
+   <hr />
    <main>
     <h2>{{subHeaderText}}</h2>
     <p>{{mainText}}</p>
    </main>
+   <hr />
    <footer>
-    <p>{{footerText}}</p>
+    <p v-html="footerText"></p>
    <footer>
   </div>
-  <!--HTML app code/end-->
+  <!--HTML code for app/end-->
   <!--link to Vue.js external script online-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.2.5/vue.min.js"></script>
-  <!--Javascript app code/start-->
+  <!--my app code/start-->
   <script>
    var app = new Vue({
      el: "#myApp",
@@ -31,10 +31,10 @@
       headerText: "Your Name Web Site",
       subHeaderText: "Introduction",
       mainText: "Welcome to my web site.",
-      footerText: "(c)2017, Your Name./All rights reserved."
+      footerText: "<b>(c)2017, Your Name./All rights reserved.</b>"
      }
    })
-  <!--Javascript app code/end-->
+  <!--my app code/end-->
   </script>
  </body>
 </html>
