@@ -2,7 +2,7 @@
 
 INTRODUCTION  
 
-Vue.js, is a relatively easy, simple, and, straight forwards to both learn/use Javascript framework; which is why I would very highly recommend it to people who are 'beginners' who've never actually practiced using Javascript frameworks before; as it will teach you about all of the basics of building and manipulating web page 'front ends'.
+Vue.js, is a relatively easy, simple, and, straight forwards to both learn/use Javascript framework; which is why I would very highly recommend it to people who are 'beginners' who've never actually practiced using Javascript frameworks before; as it will teach you about all of the basics of building and manipulating web page 'front ends'...by using back end code.
 
 WHAT YOU MIGHT NEED TO LEARN, FIRST; BEFORE LEARNING TO USE JAVASCRIPT FRAMEWORKS, NAMELY: HTML/CSS/JAVASCRIPT  
 
