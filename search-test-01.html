@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--Created: 04:50 11/04/2018
+    Updated: 04:50 11/04/2018-->
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <title>VueJS: Test search...</title>
+ </head>
+ <body>
+  <!--user interface/start-->
+  <h1>VueJS: Test search...</h1>
+  <div id="app">
+   Enter your search term:
+   <br>
+   <input type="text" v-model="searchTerm">
+   <br>
+   -(<b>NOTE</b>: Searching is <i>case insensitive</i>/also, may be either <i>partial</i>/or, <i>full</i>.)-
+   <hr>
+   <ul>
+    <li v-for="eachDataItem in objArray | filterBy searchTerm">
+     {{eachDataItem.num}} - {{eachDataItem.letters}}
+    </li>
+   </ul>
+  </div>
+  <!--user interface/end-->
+  <!--link to external VueJS library-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.25/vue.js">
+  </script>
+  <!--VUEJS code/start-->
+  <script>
+   new Vue({
+    el:"#app",
+    searchTerm:"",
+    data:{
+     objArray:[
+      {num:1,letters:"one"},
+      {num:2,letters:"two"},
+      {num:3,letters:"three"}
+     ] // objArray
+    } // data
+   }); // Vue
+  </script>  
+  <!--VUEJS code/end-->
+ </body>
+</html>
