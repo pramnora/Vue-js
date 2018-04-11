@@ -40,6 +40,9 @@ https://www.youtube.com/watch?v=DsuTwV0jwaY
 [2017] Vue.js in less than 30 minutes for beginners - Tutorial - 2.0  
 https://www.youtube.com/watch?v=VPUdtEf3oXI  
 
+VueMastery  
+http://www.vuemastery.com  
+
 ## Other
 
 ### Google Chrome Web Browser Dev Tools extension
