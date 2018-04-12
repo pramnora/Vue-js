@@ -14,9 +14,13 @@ The aim of using Javascript Frameworks is, of course, to make the coders life a 
 
 However, there are in fact 100's/if not 1000's of different Javascript Frameworks available to select from; thus, the complete beginner is likely to feel totally confused about which one/or, one's it's best to choose...? The only way to find out if a particular Javascript Framework is good for you or not...is, first, read about it/view some introductory -(YouTube)- videos/then, go and learn how to use it 'hands on'; if you find it's too complex/or, does a lot more than you ever really wanted to...then, go try a next; they're usually FREE to use anyway.
 
-## The codes inside of this folder directory can all be viewed by using the following Netlify link...
+-----
 
--> https://wonderful-booth-2739ea.netlify.com
+## NOTE: All of the codes inside of this folder directory can both be viewed/interacted with by using the following Netlify link...
+
+-> https://wonderful-booth-2739ea.netlify.com  
+
+-----
 
 ## Links...
 
