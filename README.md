@@ -16,7 +16,7 @@ However, there are in fact 100's/if not 1000's of different Javascript Framework
 
 -----
 
-## NOTE: All of the codes being shown inside of this 'Vue-js' folder directory can both be viewed/interacted with by using the following Netlify link...
+## NOTE: All of the codes being shown inside of this 'Vue-js' folder directory up above can both be 'viewed/interacted' with by using the following Netlify link...
 
 -> https://wonderful-booth-2739ea.netlify.com  
 
