@@ -38,7 +38,7 @@ https://cdnjs.com/
 ..type into search box: Vue..  
 https://cdnjs.cloudflare.com/ajax/libs/vue/2.2.5/vue.min.js  
 
--> <script src="https://unpkg.com/vue@2.5.16/dist/vue.js"></script>
+-> <script src="https://unpkg.com/vue@2.5.16/dist/vue.js"></script>  
 -> <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.2.5/vue.min.js"></script>
 
 
