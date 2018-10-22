@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+ <!--this example taken from: https://vuejs.org/-->
+ <head>
+  <title>VueJS: List 01</title>
+  <script src="https://unpkg.com/vue"></script>
+ </head>
+ <body>
+  <div id="myList">
+   <ul>
+    <li v-for="eachItem in list">
+     {{eachItem}}
+    </li>
+   </ul>
+  </div>
+  <script>
+   var app = new Vue({
+    el:"#myList",
+    data:{
+     list:[
+      'Red',
+      'Green',
+      'Blue'
+     ]
+    }
+   })
+  </script>
+ </body>
+</html>
