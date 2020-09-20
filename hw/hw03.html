@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+ <!--
+    Page created: 200920 16:00 PM GMT
+    Last updated: 200920 16:00 PM GMT 
+
+    This code borrowed from: 
+    https://www.skillshare.com/classes/The-Vue-JS-Crash-Course/525086883/projects?via=logged-in-home-your-classes&autoPlay=1
+ -->
+
+ <head>
+
+  <meta charset="utf-8">
+ 
+  <title>My first VueJS app</title>   
+
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+ </head>
+
+ <body>
+
+  <div id="app">
+   {{strMessage1}}
+   {{strMessage2}}
+  </div>
+
+  <script>
+   var myApp = new Vue({
+    el:"#app",
+    data:{
+     strMessage1:"Hello, ",
+     strMessage2:"world!"
+    }
+   })
+  </script>
+
+ </body>
+
+</html>
