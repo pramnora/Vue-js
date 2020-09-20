@@ -56,6 +56,9 @@ https://www.youtube.com/watch?v=VPUdtEf3oXI
 VueMastery  
 http://www.vuemastery.com  
 
+Skillshare  
+https://www.skillshare.com/classes/The-Vue-JS-Crash-Course/525086883/projects?via=logged-in-home-your-classes&autoPlay=1  
+
 ## Other
 
 ### Google Chrome Web Browser Dev Tools extension
