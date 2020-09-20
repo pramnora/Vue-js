@@ -24,9 +24,7 @@
   <!--v-bind, is used to bind data-->
 
   <div id="app">
-   <a v-bind:href="url" target="_blank">
-    {{text}}
-   </a>
+   <a v-bind:href="url" target="_blank">{{text}}</a>
   </div>
 
   <script>
@@ -34,8 +32,8 @@
    var myApp = new Vue({
     el:"#app",
     data:{
-     url:"https://www.vuejs.org",
-     text:"VueJS.org"
+     text:"VueJS.org",
+     url:"https://www.vuejs.org"
     }
    })
 
