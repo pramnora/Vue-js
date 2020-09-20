@@ -53,6 +53,8 @@ https://www.youtube.com/watch?v=DsuTwV0jwaY
 [2017] Vue.js in less than 30 minutes for beginners - Tutorial - 2.0  
 https://www.youtube.com/watch?v=VPUdtEf3oXI  
 
+### Other videos
+
 VueMastery  
 http://www.vuemastery.com  
 
