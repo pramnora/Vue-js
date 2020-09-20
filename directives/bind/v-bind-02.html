@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <!--This code borrowed from:
+      https://www.skillshare.com/classes/The-Vue-JS-Crash-Course/525086883/projects?via=logged-in-home-your-classes&autoPlay=1
+ 
+      Page created: 16:55 20/09/2020
+      Last updated: 16:55 20/09/2020
+  -->
+
+ <head>
+
+  <meta charset="utf-8">
+ 
+  <title>VueJS v-bind-01 app</title>   
+
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+ </head>
+
+ <body>
+
+  <!--v-bind, is used to bind data-->
+
+  <div id="app">
+   <a v-bind:href="url" target="_blank">VueJS.org</a>
+  </div>
+
+  <script>
+
+   var myApp = new Vue({
+    el:"#app",
+    data:{
+     url:"https://www.vuejs.org"
+    }
+   })
+
+  </script>
+
+ </body>
+
+</html>
