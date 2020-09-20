@@ -39,7 +39,8 @@ https://cdnjs.com/
 https://cdnjs.cloudflare.com/ajax/libs/vue/2.2.5/vue.min.js  
 
 -> <script src="https://unpkg.com/vue@2.5.16/dist/vue.js"></script>  
--> <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.2.5/vue.min.js"></script>
+-> <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.2.5/vue.min.js"></script>  
+-> <script src="https://cdn.jsdelivr.net/npm/vue"></script>  
 
 
 ## Tutorials
