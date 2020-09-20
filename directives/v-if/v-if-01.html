@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+ <!-- This code borrowed from:
+      https://www.skillshare.com/classes/The-Vue-JS-Crash-Course/525086883/projects?via=logged-in-home-your-classes&autoPlay=1
+      
+      Page created: 200920 16:35 PM GMT
+      Last updated: 200920 16:35 PM GMT
+ -->
+
+ <head>
+
+  <meta charset="utf-8">
+ 
+  <title>VueJS v-if-01 app</title>   
+
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+ </head>
+
+ <body>
+
+  <div id="app">
+   <div v-if="flag">
+    {{strMessage1}}
+    {{strMessage2}}
+   </div>
+  </div>
+
+  <script>
+
+   /* By changing the v-if 'flag' value to say either: 'true/false';
+      you can either choose to 'show/hide' text... */ 
+
+   var myApp = new Vue({
+    el:"#app",
+    data:{
+     strMessage1:"Hello, ",
+     strMessage2:"world!",
+     flag:true
+    }
+   })
+
+  </script>
+
+ </body>
+
+</html>
