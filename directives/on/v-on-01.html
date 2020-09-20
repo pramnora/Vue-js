@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <!--This code borrowed from:
+      https://www.youtube.com/watch?v=DsuTwV0jwaY
+
+      Page created: 23:58 20/09/2020
+      Last updated: 23:58 20/09/2020
+  -->
+
+ <head>
+
+  <meta charset="utf-8">
+ 
+  <title>VueJS v-on-01 app</title>   
+
+  <!--NOTE: This script source was taken from a different video: Skillshare.com-->
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+ </head>
+
+ <body>
+
+  <!--in the example below, the 'v-on' directive,
+      is used to check for the 'click' event; after which
+      it then displays a Javascript alert text box message-->
+
+  <div id="app">
+   <button v-on:click="buttonClick">Click me</button>
+  </div>
+
+  <script>
+
+   var myApp = new Vue({
+    el:"#app",
+    methods:{
+     buttonClick:function(){
+      alert("Thanks for clicking!");
+     }
+    }
+   })
+
+  </script>
+
+ </body>
+
+</html>
