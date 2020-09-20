@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <!--This code borrowed from:
+https://www.skillshare.com/classes/The-Vue-JS-Crash-Course/525086883/projects?via=logged-in-home-your-classes&autoPlay=1
+
+      Page created: 22:14 20/09/2020
+      Last updated: 22:14 20/09/2020
+  -->
+
+ <head>
+
+  <meta charset="utf-8">
+ 
+  <title>VueJS v-for-01 app</title>   
+
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+ </head>
+
+ <body>
+
+  <!--in the example below, the 'v-for' directive
+      is used to loop through an array which contains mixed data items, including:
+      string,boolean,number; and, also, another nested array item-->
+
+  <div id="app">
+   <div v-for="eachItem in arrayName">
+     {{eachItem}}
+    </div>   
+  </div>
+
+  <script>
+
+   var myApp = new Vue({
+    el:"#app",
+    data:{
+     arrayName:["abc",true,123,['x','y','z']]
+    }
+   })
+
+  </script>
+
+ </body>
+
+</html>
