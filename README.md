@@ -2,17 +2,24 @@
 
 INTRODUCTION  
 
-Vue.js, is an easy to learn/use Javascript framework; and, is especially good for 'beginners' to learn...teaching you how to build web page 'front ends'.
+Vue.js, is an easy to learn/use Javascript 'front end' framework.
 
-WHAT YOU MIGHT NEED TO LEARN, FIRST; BEFORE LEARNING TO USE JAVASCRIPT FRAMEWORKS, NAMELY: HTML/CSS/JAVASCRIPT  
+PRE-REQUISITES: HTML/CSS/JAVASCRIPT  
 
-It is normal to have already learned the main 3 web page building technologies: HTML/CSS/Javascript; before attempting to go learn how to use any Javascript framework; because the Javascript framework itself was built to go on top of these.
+It is normal to have already learned the main 3 web page building technologies: 
+- HTML
+- CSS
+- Javascript
+...before attempting to go learn how to use any Javascript framework; because the Javascript framework itself was built to go on top of these.
 
-DISCUSSING SOME OF THE BENEFITS/AS WELL AS, SOME OF THE DRAWBACKS OF LEARNING TO USE JAVASCRIPT FRAMEWORKS  
+VUE VERSIONS
 
-The aim of using Javascript Frameworks is, of course, to make the coders life a hell of a lot simpler and easier by providing a series of 'short cuts'...in the form of pre-written/pre-built/re-usable code library routines...so that instead of having to write say 10 lines of code; you just write a few lines of code, instead...this gets exactly the same job done/or, sometimes, the end results might prove to be even far better than using normal code; hence, the sheer popularity, now-a-days, of nearly everybody learning to use Javascript frameworks. 
+Vue, currently, comes in 2 different versions...
 
-However, there are in fact 100's/if not 1000's of different Javascript Frameworks available to select from; thus, the complete beginner is likely to feel totally confused about which one/or, one's it's best to choose...? The only way to find out if a particular Javascript Framework is good for you or not...is, first, read about it/view some introductory -(YouTube)- videos/then, go and learn how to use it 'hands on'; if you find it's too complex/or, does a lot more than you ever really wanted to...then, go try a next; they're usually FREE to use anyway.
+- Vue 2
+- Vue 3
+
+**NOTE**: Vue 3, is the latest version; but, certain parts/add on's/-etc. are still in Beta testing.
 
 -----
 
