@@ -53,6 +53,9 @@ https://www.youtube.com/watch?v=DsuTwV0jwaY
 [2017] Vue.js in less than 30 minutes for beginners - Tutorial - 2.0  
 https://www.youtube.com/watch?v=VPUdtEf3oXI  
 
+Learn Vue.js - Full Course for Beginners - 2019 (FreeCodeCamp.org)  
+https://www.youtube.com/watch?v=4deVCNJq3qc&feature=emb_rel_end  
+
 ### Other videos
 
 VueMastery  
