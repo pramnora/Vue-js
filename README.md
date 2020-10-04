@@ -75,6 +75,9 @@ http://www.vuemastery.com
 Skillshare  
 https://www.skillshare.com/classes/The-Vue-JS-Crash-Course/525086883/projects?via=logged-in-home-your-classes&autoPlay=1  
 
+Udemy  
+https://www.udemy.com/course/vuejs-fast-crash-course/learn/lecture/3355430#overview  
+
 ## Other
 
 ### Google Chrome Web Browser Dev Tools extension
