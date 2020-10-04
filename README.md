@@ -73,6 +73,9 @@ https://www.youtube.com/watch?v=4deVCNJq3qc&feature=emb_rel_end
 [ARCHIVE]✌️ Exploring Vue.js 3.0  (Coding Garden)  
 https://www.youtube.com/watch?v=SwcXoKlUf2c  
 
+Intro to Vue 3 + Composition API: Build a Todo App  (Codeing Garden)  
+https://www.youtube.com/watch?v=rncY1tlWShM  
+
 Learn Vue 3 for Beginners - Full 2020 Tutorial Course (The Earth is Square)  
 https://www.youtube.com/watch?v=ZqgiuPt5QZo  
 
