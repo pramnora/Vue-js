@@ -6,10 +6,12 @@ Vue.js, is an easy to learn/use Javascript 'front end' framework.
 
 PRE-REQUISITES: HTML/CSS/JAVASCRIPT  
 
-It is normal to have already learned the main 3 web page building technologies: 
+It is normal to have already learned the main 3 web page building technologies:-  
+
 - HTML
 - CSS
-- Javascript
+- Javascript  
+
 ...before attempting to go learn how to use any Javascript framework; because the Javascript framework itself was built to go on top of these.
 
 VUE VERSIONS
