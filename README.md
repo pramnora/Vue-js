@@ -4,6 +4,12 @@
 
 Vue.js, is an easy to learn/use Javascript 'front end' framework.
 
+## NOTE: All of the codes being shown inside of this 'Vue-js' folder directory up above...can both be 'viewed/interacted' with by using the following Netlify link.
+
+-> https://prg-vuejs.netlify.app  
+
+-----
+
 ## PRE-REQUISITES: HTML/CSS/JAVASCRIPT  
 
 It is normal to have already learned the main 3 web page building technologies:-  
@@ -22,12 +28,6 @@ Vue, currently, comes in 2 different versions...
 - Vue 3
 
 **NOTE**: Vue 3, is the latest version; but, certain parts/add on's/-etc. are still in Beta testing.
-
------
-
-## NOTE: All of the codes being shown inside of this 'Vue-js' folder directory up above...can both be 'viewed/interacted' with by using the following Netlify link.
-
--> https://prg-vuejs.netlify.app  
 
 -----
 
