@@ -18,7 +18,7 @@
    <hr>
    <ul>
     <li v-for="eachDataItem in objPhonebook | filterBy searchTerm">
-     {{eachDataItem.category}} - {{eachDataItem.name}} - {{eachDataItem.number}} - {{eachDataItem.location}} - v-html:{{eachDataItem.url}} 
+     {{eachDataItem.category}} - {{eachDataItem.name}} - {{eachDataItem.number}} - {{eachDataItem.location}} - v-html{{eachDataItem.url}} 
     </li>
    </ul>
   </div>
