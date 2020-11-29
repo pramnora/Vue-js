@@ -68,6 +68,9 @@ https://www.youtube.com/watch?v=VPUdtEf3oXI
 Learn Vue.js - Full Course for Beginners - 2019 (FreeCodeCamp.org)  
 https://www.youtube.com/watch?v=4deVCNJq3qc&feature=emb_rel_end  
 
+Vue JS crash Course | what is Vue JS (Channel: Hitesh Choudary)  
+https://www.youtube.com/watch?v=hiOUHcx4Ja8&list=PLRAV69dS1uWTpHQgiV4rZFlnuS8XDl71A  
+
 #### Learn Vue/Version 3 
 
 [ARCHIVE]✌️ Exploring Vue.js 3.0  (Coding Garden)  
