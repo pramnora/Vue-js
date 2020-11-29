@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--Created: 23:50 28/11/2020
+    Updated: 11:06 29/11/2020-->
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <title>VueJS: Phonebook App</title>
+ </head>
+ <body>
+  <!--user interface/start-->
+  <h1>VueJS: Phonebook App</h1>
+  <div id="app">
+   Enter your search term:
+   <br>
+   <input type="text" v-model="searchTerm">
+   <br>
+   -(<b>NOTE</b>: Searching is <i>case insensitive</i>/also, may be either <i>partial</i>/or, <i>full</i>.)-
+   <hr>
+   <ul>
+    <li v-for="eachDataItem in objPhonebook | filterBy searchTerm">
+     {{eachDataItem.category}} - {{eachDataItem.name}} - {{eachDataItem.number}}
+    </li>
+   </ul>
+  </div>
+  <!--user interface/end-->
+  <!--link to external VueJS library-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.25/vue.js">
+  </script>
+  <!--VUEJS code/start-->
+  <script>
+   new Vue({
+    el:"#app",
+    data:{
+     searchTerm:"",
+     objPhonebook:[
+      {category:"business",name:"John",number:"0207"},
+      {category:"family",name:"Jake",number:"0208"},
+      {category:"friend",name:"Jim",number:"0730"}
+     ] // objPhonebook
+    } // data
+   }); // Vue
+  </script>  
+  <!--VUEJS code/end-->
+ </body>
+</html>
