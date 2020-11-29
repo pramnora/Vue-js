@@ -19,7 +19,7 @@
    <ul>
     <li v-for="eachDataItem in objPhonebook | filterBy searchTerm">
      <!--NOTE: I'm having difficulty displaying the URL as as clickable link...?!-->   
-     {{eachDataItem.category}} - {{eachDataItem.name}} - {{eachDataItem.number}} - {{eachDataItem.location}} - {{eachDataItem.url}} 
+     {{eachDataItem.category}} - {{eachDataItem.name}} - {{eachDataItem.number}} - {{eachDataItem.location}} - <span v-html=eachDataItem.url</span> 
     </li>
    </ul>
   </div>
