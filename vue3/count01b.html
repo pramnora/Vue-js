@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ <!--created: 12:32 02/07/2022
+     updated: 12:32 02/07/2022
+     -------------------------
+     The code was originally borrowed from(and, then, was further adapted by me): 
+     https://vuejs.org/guide/introduction.html#what-is-vue
+  -->
+
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Show Count/Vue3JS</title>
+ </head>
+ <body>
+
+  //*** display div section ...
+
+  <div id="app">
+   <button @click="doIncrement">
+    Count is: {{ count }}
+   </button>
+  </div>
+
+  //*** External link to Vue 3 JS call... 
+
+  <script src="https://unpkg.com/vue@next"></script>
+
+  <script>
+
+   //*** app mount section...
+
+   let myApp = Vue.createApp({
+
+    //*** variables section...
+
+    data: function(){
+     return{
+      count:0
+     }
+    },
+
+    //*** functions section...
+
+    methods: {
+     doIncrement(){
+      this.count++
+     }
+    }
+    
+   }).mount('#app')
+
+  </script>
+
+ </body>
+</html>
