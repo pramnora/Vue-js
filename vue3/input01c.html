@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en"> 
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Page created" content="14:38 02/07/2022">
+  <meta name="Last updated" content="15:46 02/07/2022"> 
+  <title>Vue3JS/2 way data binding</title>
+  <style>
+   header,main,footer{text-align:center;}
+  </style>
+ </head>
+ <body>
+  <div id="app">
+   <input v-model="greeting">
+   <p>{{greeting}}</p>
+  </div>
+  <script src="https://unpkg.com/vue@next"></script>
+  <script> 
+   let myApp = Vue.createApp({
+    data: function(){
+     return{
+      greeting:""
+     }
+    }
+   })
+   myApp.mount('#app') 
+  </script> 
+ </body>
+</html>
