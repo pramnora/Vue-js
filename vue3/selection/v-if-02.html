@@ -26,7 +26,6 @@
       if 'isVisible:false'...then, the element is NOT visible.
   --> 
   <div id="app">
-   <p v-if="isVisible">{{greeting}}</p>
    <div class="box1" v-if="isVisible1"></div>
    <div class="box2" v-else-if="isVisible2"></div>
    <div class="box3" v-else></div>
@@ -36,7 +35,6 @@
    let myApp = Vue.createApp({
     data:function(){
      return{
-      greeting:'hi',
       isVisible1:true,  //...show red box if true
       isVisible2:false, //...show green box if true
                         //...otherwise, show blue box
