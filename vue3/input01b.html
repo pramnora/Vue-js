@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en"> 
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Vue3JS/2 way data binding</title>
+  <style>
+   header,main,footer{text-align:center;}
+  </style>
+ </head>
+ <body>
+   <header>
+   <h1>Vue 3 JS</h1>
+   <h2>2 Way Data Binding</h2>
+  </header>
+  <hr />
+  <main>
+   <div id="app">
+    <p>
+     Anything you type into the HTML input box, below...; should be, automatically, echoed into the HTML paragraph.
+    </p>
+    <input v-model="greeting">
+    <p>{{greeting}}</p>
+   </div>
+  </main>
+  <hr />
+  <footer>
+   <p>
+    Page created: <i>14:38 02/07/2022</i>
+    <br />
+    Last updated: <i>14:38 02/07/2022</i>
+   </p>
+  </footer>
+  <script src="https://unpkg.com/vue@next"></script>
+  <script> 
+   let myApp = Vue.createApp({
+    data: function(){
+     return{
+      greeting:""
+     }
+    }
+   })
+   myApp.mount('#app') 
+  </script> 
+ </body>
+</html>
