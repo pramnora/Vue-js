@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+ <!--
+  code borrrowed from(and, then, personally adapted by me):
+  Vue.js Course for Beginners [2021 Tutorial]
+  https://www.youtube.com/watch?v=FXpIoQ_rT_c&t=340s
+  ---------------------------------------------------------
+  created: 18:53 02/07/2022
+  updated: 18:53 02/07/2022                       
+  -->
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>v-if/Vue3JS</title>
+  <style>
+   .box{background-color:red;width:100px;height:100px;}
+  </style>
+ </head>
+ <body>
+  <!--the 'isVisible' test variable needs to be placed inside of the 
+      individual HTML element to work;
+      and, it's boolean setting can be either: true/false;
+      if 'isVisible:true'...then, the element is visible;
+      if 'isVisible:false'...then, the element is NOT visible.
+      --------------------------------------------------------------
+      There are 2 different ways to use v-on...
+      a> v-on:click=""
+      b> @click=""
+  --> 
+  <div id="app"> 
+   <button v-on:click="isVisible=true">Show box</button>
+   <div class="box" v-if="isVisible"></div>
+  </div>
+  <script src="https://unpkg.com/vue@next"></script>
+  <script>
+   let myApp = Vue.createApp({
+    data:function(){
+     return{
+      isVisible:false  //...show red box if true
+     }
+    }
+   })
+   myApp.mount('#app') 
+  </script>
+ </body>
+</html>
