@@ -1,0 +1,14 @@
+  <div id="app">
+   <input v-model="greeting">
+   <p>{{greeting}}</p>
+  </div>
+  <script src="https://unpkg.com/vue@next"></script>
+  <script> 
+   Vue.createApp({
+    data: function(){
+     return{
+      greeting:""
+     }
+    }
+   }).mount('#app') 
+  </script> 
