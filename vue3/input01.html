@@ -1,43 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"><!--HTML code/start-->
  
  <!--
- This example code was taken from(and, was further adapted by me):
- Vue.js Course for Beginners [2021 Tutorial]
- https://www.youtube.com/watch?v=FXpIoQ_rT_c&t=340s
--->
+  This example code was taken from(and, was further adapted by me):
+  Vue.js Course for Beginners [2021 Tutorial]
+  https://www.youtube.com/watch?v=FXpIoQ_rT_c&t=340s
+ -->
 
- <head>
+ <head><!--HTML head section/start-->
+
+  <!--HTML meta tags/start-->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--HTML meta tags/end-->
+
+  <!--HTML web page title heading-->
   <title>Vue3JS/2 way data binding</title>
-  <style>
+
+  <style><!--CSS stylesheet/start-->
    header,main,footer{text-align:center;}
-  </style>
- </head>
- <body>
+  </style><!--CSS stylesheet/end-->
+
+ </head><!--HTML head section/end-->
+
+ <body><!--HTML body section/start-->
   
-  <header>
+  <header> <!--HTML header section/start-->
    <h1>Vue 3 JS</h1>
    <h2>2 Way Data Binding</h2>
-  </header>
+  </header> <!--HTML header section/end-->
 
   <hr />
 
-  <main>
-   <div id="app">
+  <main> <!--HTML main section/start-->
+   <div id="app"> <!--start of display div-->
     <p>
      Anything you type into the HTML input box, below...; should be, automatically, echoed into the HTML paragraph.
     </p>
     <input v-model="greeting">
     <p>{{greeting}}</p>
-   </div>
-  </main>
+   </div> <!--end of display div-->
+  </main> <!--HTML main section/end-->
 
   <hr />
 
-  <footer>
+  <footer> <!--HTML footer section/start-->
    <p>
     Page created: 
     <i>
@@ -49,12 +57,14 @@
      14:38 02/07/2022
     </i>
    </p>
-  </footer>
+  </footer> <!--HTML footer section/end-->
 
-
+  <!-- External link to Vue 3 JS... -->
   <script src="https://unpkg.com/vue@next"></script>
 
-  <script>
+
+  <!-- Vue 3 code/starts here -->
+  <script> 
    let myApp = Vue.createApp({
     data: function(){
      return{
@@ -62,8 +72,11 @@
      }
     }
    })
-   myApp.mount('#app')
-  </script>
+   myApp.mount('#app') 
+  </script> 
+  <!-- Vue 3 code/ends -->
 
- </body>
+ </body><!--HTML body section/end-->
+
+ <!--HTML code/end-->
 </html>
