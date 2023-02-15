@@ -25,9 +25,10 @@
 
   <!--div output section/start-->
   <div id="app">
-   <!--the shorthand to 'v-bind:class=' is ':class='-->
+   <!--the shorthand for 'v-bind:class=' is ':class='-->
+   <!--the shorthand for 'v-on:click' is '@click'-->
    <button :class="active ? 'text-red':'text-green'"
-            v-on:click="toggle"
+           @click="toggle"
    >
     Click me
    </button>
