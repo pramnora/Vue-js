@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+ <!--
+   This code is borrowed from... 
+   Learn Vue 3 - Ep 2, Attribute Binding and Event Handling
+   https://www.youtube.com/watch?v=J4aNmkEGTu0&list=PL3VM-unCzF8jX-GoazLPcbi7M0wJux8F-&index=2   
+   Created: 01:49 15/02/2023
+   Updated: 01:49 15/02/2023
+  -->
+
+ <head>
+  <meta charset="utf-8">
+  <title>Vue3JS test page</title>
+  <style>
+   html,body{height:100%;}
+   body{display:grid;place-items:center;} 
+   .text-red{color:red;}
+   .text-green{color:green;}
+  </style>
+ </head>
+
+ <body>
+
+  <!--div output section/start-->
+  <div id="app">
+   <!--the shorthand to 'v-bind:class=' is ':class='-->
+   <button :class="buttonClasses"
+            v-on:click="toggle"
+   >
+    Click me
+   </button>
+  </div>
+  <!--div output section/end-->
+
+  <!--CDN link to external VueJS version 3 library-->
+  <script src="https://unpkg.com/vue@3"></script>
+
+  <!--Vue3JS script/start-->
+  <script>
+   Vue.createApp({
+     data(){
+       return{
+        buttonClasses:'text-green'
+       };
+     },
+     methods:{
+      toggle(){
+       this.buttonClasses='text-red';
+      }
+     }
+   }).mount('#app');
+  </script>
+  <!--Vue3JS script/end-->
+     
+ </body>
+
+</html>
