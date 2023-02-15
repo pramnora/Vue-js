@@ -89,7 +89,7 @@ Learn Vue 3 - Ep 1, The Absolute Basics  (Laracasts)
 ### Other videos
 
 VueMastery  
-0 http://www.vuemastery.com  
+- http://www.vuemastery.com  
 
 Skillshare  
 - https://www.skillshare.com/classes/The-Vue-JS-Crash-Course/525086883/projects?via=logged-in-home-your-classes&autoPlay=1  
