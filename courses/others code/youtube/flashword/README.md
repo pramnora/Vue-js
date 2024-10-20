@@ -16,8 +16,8 @@ that this lady gives to accompany her videos...;
 so, I decided to engage with it 'hands on'...    
 in order to learn more about how the VueJS framework platform works.   
 
-Project start: *Sun 20 Oct 2024 19:49 PM GMT*    
-Project end:      
+Project start date: *Sun 20 Oct 2024 19:49 PM GMT*    
+Project end date:      
 
 -----
 
