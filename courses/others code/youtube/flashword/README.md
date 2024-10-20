@@ -5,10 +5,14 @@
 
 -----
 
-**NOTES**: I've only started working on this VueJS project, today, during this Sunday evening...;    
-many projects I *start*...; but, don't actually ever tend to **finish**;  
+**NOTE(S)**:   
+
+I've only started working on this VueJS 'Flashwords' project, today, during this Sunday evening...;    
+many projects I *start*...; but, don't actually ever tend to **finish**...;    
 so, I really don't know for sure if I'll be able to complete doing this YouTube project course...???    
-However, I am very much impressed with the clear and simple explanations that this lady gives...;    
+
+However, I am very deeply impressed with the really clear and simple in depth explanations  
+that this lady gives to accompany her videos...;     
 so, I decided to engage with it 'hands on'...in order to learn more about how VueJS works.   
 
 -----
