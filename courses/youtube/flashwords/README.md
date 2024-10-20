@@ -4,7 +4,7 @@
 **Updated**: *Sun 20 Oct 2024 19:49 PM GMT*  
 
 The files inside of this directory can be viewed/interacted with here:  
-- https://prg-vuejs.netlify.com  
+- [https://prg-vuejs.netlify.com  ](https://prg-vuejs.netlify.app/)
 
 -----
 
