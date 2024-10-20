@@ -13,7 +13,8 @@ so, I really don't know for sure if I'll be able to complete doing this YouTube 
 
 However, I am very deeply impressed with the really clear and simple in depth explanations  
 that this lady gives to accompany her videos...;     
-so, I decided to engage with it 'hands on'...in order to learn more about how VueJS works.   
+so, I decided to engage with it 'hands on'...    
+in order to learn more about how the VueJS framework plaform works.   
 
 Project start: *Sun 20 Oct 2024 19:49 PM GMT*    
 Project end:      
