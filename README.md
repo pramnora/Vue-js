@@ -2,6 +2,8 @@
 
 **Document last modified**: *Tue 22 Oct 2024 15:14 PM GMT*  
 
+-----
+
 ## INTRODUCTION  
 
 Vue.js, is an easy to learn/use Javascript 'front end' framework.
