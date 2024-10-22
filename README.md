@@ -89,13 +89,13 @@ Learn Vue 3 for Beginners - Full 2020 Tutorial Course (The Earth is Square)
 Learn Vue 3 - Ep 1, The Absolute Basics  (Laracasts)  
 - https://www.youtube.com/watch?v=BZwn47RPiAM&list=PL3VM-unCzF8jX-GoazLPcbi7M0wJux8F-  
 
+Vue.js Simplified - FULL COURSE / YouTube Channel: Susan B)
+- https://www.youtube.com/watch?v=8BgyPAeV7eU&t=1820s  
+
 #### YouTube (Shorts)
 
 (roll and tilt cards effect)  
 - https://www.youtube.com/shorts/Aabh97P31FA
-
-Vue.js Simplified - FULL COURSE / YouTube Channel: Susan B)
-- https://www.youtube.com/watch?v=8BgyPAeV7eU&t=1820s  
 
 ### Other videos
 
