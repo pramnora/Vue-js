@@ -1,5 +1,7 @@
 # Vue-js
 
+**Document last modified**: *Tue 22 Oct 2024 15:14 PM GMT*  
+
 ## INTRODUCTION  
 
 Vue.js, is an easy to learn/use Javascript 'front end' framework.
@@ -88,7 +90,10 @@ Learn Vue 3 - Ep 1, The Absolute Basics  (Laracasts)
 #### YouTube (Shorts)
 
 (roll and tilt cards effect)  
-- https://www.youtube.com/shorts/Aabh97P31FA  
+- https://www.youtube.com/shorts/Aabh97P31FA
+
+Vue.js Simplified - FULL COURSE / YouTube Channel: Susan B)
+- https://www.youtube.com/watch?v=8BgyPAeV7eU&t=1820s  
 
 ### Other videos
 
